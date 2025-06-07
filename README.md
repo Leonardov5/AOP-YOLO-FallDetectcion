@@ -48,14 +48,14 @@ Este projeto implementa um sistema de deteção de quedas em tempo real utilizan
 ### Executar com câmera em tempo real:
 
 ```bash
-python finalteste.py
+python script.py
 ```
 
 Por predefinição, o sistema utiliza a câmera do dispositivo (source=0). Para alterar a fonte de vídeo, modifique o parâmetro `source` no método `run_camera`.
 
 ### Executar com um vídeo pré-gravado:
 
-Retire o comentário da linha `fall_system.run_video("video3.mp4")` e comente a linha `fall_system.run_camera(0)` no final do ficheiro `finalteste.py`:
+Retire o comentário da linha `fall_system.run_video("video3.mp4")` e comente a linha `fall_system.run_camera(0)` no final do ficheiro `script.py`:
 
 ```python
 # fall_system.run_camera(0)
